@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# enter the game directory
+cd ./data
+
+# run FTL
+exec ./FTL "$@"

@@ -1,0 +1,18 @@
+#!/bin/bash
+#HACKED WITH FTL-GODMODE#
+
+# enter the game directory
+cd ./data
+
+# if mods are enabled...
+if [ "$1" == "modded" ]; then
+    # ...load the hack...
+    LD_PRELOAD="$2"
+    
+    # ...and discard the two arguments ("modding" and the library path)
+    shift
+    shift
+fi
+
+# run FTL
+exec ./FTL "$@"
