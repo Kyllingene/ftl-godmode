@@ -1,5 +1,7 @@
 # FTL Godmode (for Linux)
 
+### WARNING: This is not neccesarily stable! Use at your own risk!
+
 ## Behavior:
 
 Every 5 seconds, does the following (if the player ship exists):
